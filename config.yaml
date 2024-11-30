@@ -1,0 +1,17 @@
+data:
+  name: "4fourh"
+  root_dir: "/ssd_scratch/cvit/saigunda/"
+  img_size: [32,512]
+  patch_size: 16
+
+training:
+  max_epochs: 1000000
+  learning_rate: 0.00001
+  num_global_tokens: 4
+  num_channels: 1
+  hidden_size: 768
+  num_heads: 12
+  patch_h: 2
+  patch_w: 8
+  # error_rate : 0.05
+  # saved_check : "/ssd_scratch/cvit/kesav_saigunda/gt_1_2_12_2WordsDataset/epoch=215-step=80352.ckpt"
